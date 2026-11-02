@@ -2,7 +2,7 @@
 layout: home
 hero:
   name: AI时代指南
-  text: 在智能变革中理解世界、建立秩序、寻找行动方向。
+  text: 在智能变革的混乱中构建秩序、寻找行动方向。
   tagline: 一个持续迭代的开放研究项目。理解 AI 的发展，推演社会变化，并探索个人与群体的行动策略。
   actions:
     - theme: brand
