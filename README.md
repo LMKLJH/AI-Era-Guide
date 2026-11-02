@@ -28,12 +28,39 @@ AI 的发展正在冲击我们熟悉的判断。过去，我相信通过努力�
 
 在线阅读：https://lmkljh.github.io/AI-Era-Guide/
 
-| 板块 | 内容 |
-| --- | --- |
-| [01 认识 AI](https://lmkljh.github.io/AI-Era-Guide/01-ai/) | 原理、发展动力、能力边界与安全 |
-| [02 AI 工具与应用](https://lmkljh.github.io/AI-Era-Guide/tools/) | 模型、Codex、智能体、数学科研、编程及实践案例 |
-| [03 社会变革](https://lmkljh.github.io/AI-Era-Guide/02-society/) | 生产力、生产关系、教育科研与社会制度 |
-| [04 个体应对](https://lmkljh.github.io/AI-Era-Guide/03-action/) | 职业、财富、精神力量、行动策略与风险预案 |
-| [05 研究资料与附录](https://lmkljh.github.io/AI-Era-Guide/04-research/) | 论文、报告、预测日志与圆桌讨论材料 |
+[完整目录](https://lmkljh.github.io/AI-Era-Guide/contents)按《AI时代生存指南》PDF 的前言、四部分与 21 个章节编排。研究资料与附录作为辅助栏目保留。缺少素材的章节仅保留标题。
 
-新增板块按实际材料逐步建设，尚无素材的专题保留标题。显示顺序与文章地址独立，原有链接继续使用。
+### 第 1 部分 底层原理·AI科学
+
+- [1.1 AI 的数学原理与智能本质](https://lmkljh.github.io/AI-Era-Guide/01-ai/intelligence)
+- [1.2 AI 发展的动力、瓶颈与影响](https://lmkljh.github.io/AI-Era-Guide/01-ai/development)
+- [1.3 世界模型、具身智能与机器人](https://lmkljh.github.io/AI-Era-Guide/01-ai/embodied)
+- [1.4 AI 能力边界与未来预测](https://lmkljh.github.io/AI-Era-Guide/01-ai/forecast)
+- [1.5 AI 意识、安全与目标对齐](https://lmkljh.github.io/AI-Era-Guide/01-ai/alignment)
+
+### 第 2 部分 落地实践·AI应用
+
+- [2.1 AI 工具、Codex 与智能体](https://lmkljh.github.io/AI-Era-Guide/tools/agents)
+- [2.2 AI 与数学、科学研究](https://lmkljh.github.io/AI-Era-Guide/tools/math-science)
+- [2.3 AI 在各行业的应用](https://lmkljh.github.io/AI-Era-Guide/tools/industries)
+- [2.4 AI+个人 IP](https://lmkljh.github.io/AI-Era-Guide/tools/personal-ip)
+
+### 第 3 部分 社会推演·时代变革
+
+- [3.1 人性需求、价值与稀缺性](https://lmkljh.github.io/AI-Era-Guide/02-society/value)
+- [3.2 AI 重塑生产力与生产关系](https://lmkljh.github.io/AI-Era-Guide/02-society/production)
+- [3.3 教育、科研与学术体系变革](https://lmkljh.github.io/AI-Era-Guide/02-society/education)
+- [3.4 社会制度、权力与财富分配](https://lmkljh.github.io/AI-Era-Guide/02-society/distribution)
+- [3.5 各行各业岗位变迁案例](https://lmkljh.github.io/AI-Era-Guide/02-society/jobs)
+- [3.6 人类社会的意义危机](https://lmkljh.github.io/AI-Era-Guide/02-society/meaning)
+
+### 第 4 部分 个体应对·生存指南
+
+- [4.1 思想纲领](https://lmkljh.github.io/AI-Era-Guide/03-action/#principles)
+- [4.2 职业选择与科研人的未来](https://lmkljh.github.io/AI-Era-Guide/03-action/career)
+- [4.3 个人财富与风险管理](https://lmkljh.github.io/AI-Era-Guide/03-action/wealth)
+- [4.4 领导力、影响力与社群](https://lmkljh.github.io/AI-Era-Guide/03-action/leadership)
+- [4.5 情绪价值、精神力量与人际关系](https://lmkljh.github.io/AI-Era-Guide/03-action/relationships)
+- [4.6 个人行动与长期规划](https://lmkljh.github.io/AI-Era-Guide/03-action/planning)
+
+[研究资料与附录](https://lmkljh.github.io/AI-Era-Guide/04-research/)

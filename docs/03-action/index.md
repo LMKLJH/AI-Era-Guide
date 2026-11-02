@@ -1,4 +1,15 @@
-# 个体应对：思想纲领
+# 第 4 部分 个体应对·生存指南
+
+## 章节目录
+
+- [4.1 思想纲领](/03-action/#principles)
+- [4.2 职业选择与科研人的未来](/03-action/career)
+- [4.3 个人财富与风险管理](/03-action/wealth)
+- [4.4 领导力、影响力与社群](/03-action/leadership)
+- [4.5 情绪价值、精神力量与人际关系](/03-action/relationships)
+- [4.6 个人行动与长期规划](/03-action/planning)
+
+## 4.1 思想纲领 {#principles}
 
 ## 核心原则
 

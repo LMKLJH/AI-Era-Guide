@@ -7,27 +7,31 @@ hero:
   actions:
     - theme: brand
       text: 阅读思想纲领
-      link: /03-action/
+      link: /03-action/#principles
     - theme: alt
       text: 参与项目
       link: /04-research/
 features:
-  - title: 认识 AI
+  - title: 底层原理·AI科学
     details: 从智能原理、发展动力、算力与算法，到能力边界和安全问题。
     link: /01-ai/
-  - title: AI 工具与应用
+  - title: 落地实践·AI应用
     details: 学习和评测模型、智能体与工作流，通过数学、科研、编程等真实项目积累实践经验。
     link: /tools/
-  - title: 推演社会变革
+  - title: 社会推演·时代变革
     details: 研究智能如何影响生产力、生产关系、教育科研、职业与制度。
     link: /02-society/
-  - title: 个体应对
+  - title: 个体应对·生存指南
     details: 从人性需求、稀缺性和真实价值出发，探索职业、组织、财富与风险策略。
     link: /03-action/
   - title: 研究资料与附录
     details: 汇集论文、专家报告、预测日志与圆桌讨论材料，保留来源和修订记录。
     link: /04-research/
 ---
+
+## 阅读目录
+
+[按 PDF 原目录阅读：前言与四部分、21 个章节](/contents)
 
 ## 项目宗旨
 
