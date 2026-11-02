@@ -1,4 +1,9 @@
+<div class="section-banner section-banner--ai">
+
 # 第 1 部分 底层原理·AI科学
+
+</div>
+
 
 研究 AI 的发展依赖什么、能力如何增长，以及未来可能出现哪些突破和瓶颈。
 

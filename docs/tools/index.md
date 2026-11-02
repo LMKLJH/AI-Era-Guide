@@ -1,4 +1,9 @@
+<div class="section-banner section-banner--tools">
+
 # 第 2 部分 落地实践·AI应用
+
+</div>
+
 
 学习、评测和实践各类 AI 工具，研究如何把 AI 用于真实任务，改善个人与团队的工作方式。
 

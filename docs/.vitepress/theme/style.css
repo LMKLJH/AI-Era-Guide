@@ -1,35 +1,46 @@
-/* Background is decorative and limited to the homepage hero. */
-.VPHome .VPHero {
-  position: relative;
-  isolation: isolate;
-}
-
+/* Homepage and section banners use the supplied artwork; article bodies stay plain. */
+.VPNavBar.home { background-color: var(--vp-c-bg); }
+.VPHome .VPHero { position: relative; isolation: isolate; padding-bottom: 100px; }
 .VPHome .VPHero::before {
-  content: '';
-  position: absolute;
-  inset: -64px 0 -32px;
-  z-index: -1;
-  pointer-events: none;
-  background-image:
-    linear-gradient(90deg, rgba(255,255,255,.94) 0%, rgba(255,255,255,.65) 44%, rgba(255,255,255,.08) 100%),
-    url('/images/home-background.png');
-  background-size: cover;
-  background-position: center right;
-  background-repeat: no-repeat;
-  -webkit-mask-image: linear-gradient(to bottom, #000 72%, transparent 100%);
-  mask-image: linear-gradient(to bottom, #000 72%, transparent 100%);
+  content: ''; position: absolute; inset: 0; z-index: -1; pointer-events: none;
+  background-image: linear-gradient(90deg, rgba(4,15,24,.79), rgba(4,15,24,.52) 54%, rgba(4,15,24,.12)), url('/backgrounds/home.webp');
+  background-size: cover; background-position: 63% 62%; background-repeat: no-repeat;
 }
-
-.dark .VPHome .VPHero::before {
-  background-image:
-    linear-gradient(90deg, rgba(27,27,31,.98) 0%, rgba(27,27,31,.89) 44%, rgba(27,27,31,.56) 100%),
-    url('/images/home-background.png');
+.VPHome .VPHero .main { max-width: 850px; }
+.VPHome .VPHero .name, .VPHome .VPHero .text {
+  color: #fff; background: none; -webkit-text-fill-color: #fff;
+  text-shadow: 0 2px 14px rgba(0,0,0,.22);
 }
-
+.VPHome .VPHero .text { text-wrap: balance; max-width: 850px; font-size: clamp(32px, 3.8vw, 48px); line-height: 1.35; }
+.VPHome .VPHero .tagline { color: #eef3f7; max-width: 730px; }
+.VPHome .VPHero .VPButton.alt { color: #173042; background: #eef3f7; border-color: #eef3f7; }
+.VPHome .VPFeatures { padding-top: 36px; }
+.vp-doc .section-banner {
+  position: relative; isolation: isolate; display: flex; align-items: flex-start;
+  width: 100%; min-width: 0; box-sizing: border-box;
+  aspect-ratio: 7 / 3; min-height: 240px; padding: 28px; margin: 0 0 32px;
+  overflow: hidden; border-radius: 12px; background-size: cover; background-repeat: no-repeat;
+  background-position: center 68%;
+}
+.vp-doc .section-banner::before {
+  content: ''; position: absolute; inset: 0; z-index: -1;
+  background: linear-gradient(180deg, rgba(3,14,23,.75), rgba(3,14,23,.22) 65%, rgba(3,14,23,.14));
+}
+.vp-doc .section-banner h1 {
+  margin: 0; color: #fff; font-size: clamp(24px, 2.7vw, 34px); line-height: 1.5;
+  letter-spacing: 0; text-shadow: 0 2px 12px rgba(0,0,0,.4);
+}
+.section-banner--ai { background-image: url('/backgrounds/ai.webp'); }
+.section-banner--tools { background-image: url('/backgrounds/tools.webp'); }
+.section-banner--society { background-image: url('/backgrounds/society.webp'); }
+.section-banner--action { background-image: url('/backgrounds/action.webp'); }
 @media (max-width: 639px) {
+  .VPHome .VPHero { padding-bottom: 72px; }
   .VPHome .VPHero::before {
-    inset: -48px 0 -24px;
-    background-position: 64% center;
-    opacity: .6;
+    background-image: linear-gradient(180deg, rgba(3,14,23,.75), rgba(3,14,23,.51)), url('/backgrounds/home.webp');
+    background-position: 60% center;
   }
+  .VPHome .VPHero .text { font-size: 32px; line-height: 1.42; }
+  .VPHome .VPHero .tagline { font-size: 17px; }
+  .vp-doc .section-banner { min-height: 230px; padding: 22px; background-position: center; }
 }

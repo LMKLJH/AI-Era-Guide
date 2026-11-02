@@ -1,4 +1,9 @@
+<div class="section-banner section-banner--action">
+
 # 第 4 部分 个体应对·生存指南
+
+</div>
+
 
 ## 章节目录
 

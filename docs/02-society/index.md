@@ -1,4 +1,9 @@
+<div class="section-banner section-banner--society">
+
 # 第 3 部分 社会推演·时代变革
+
+</div>
+
 
 从第一性原理出发，分析智能工业化可能如何改变生产力、生产资料、组织结构和社会制度。
 
