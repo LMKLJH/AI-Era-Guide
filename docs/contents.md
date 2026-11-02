@@ -37,6 +37,8 @@
 
 ## 研究资料与附录
 
+[熊辉报告：连接、吸引、共生，创新引力场打造](/04-research/xiong-hui-report)
+
 [研究资料与参与项目](/04-research/)
 
 [AGI 风险与个人预案](/03-action/risk)

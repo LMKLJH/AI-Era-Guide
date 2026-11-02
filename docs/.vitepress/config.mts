@@ -164,6 +164,10 @@ export default defineConfig({
             "link": "/04-research/"
           },
           {
+            "text": "熊辉报告：战略思考",
+            "link": "/04-research/xiong-hui-report"
+          },
+          {
             "text": "AGI 风险与个人预案",
             "link": "/03-action/risk"
           }
