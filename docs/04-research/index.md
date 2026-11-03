@@ -26,7 +26,7 @@
 
 ## 如何参与
 
-[查看参与讨论说明与规则](/participate)。文章评论已完成接入，等待开启 Discussions 与 Giscus 授权后启用。
+[查看参与讨论说明与规则](/participate)。文章底部提供评论区，跨专题问题可前往 [GitHub Discussions](https://github.com/LMKLJH/AI-Era-Guide/discussions) 交流。
 
 可以通过[Issues](https://github.com/LMKLJH/AI-Era-Guide/issues)补充资料、指出错误或提出反对意见，也可提交Pull Request修改文章。合并由维护者审核。
 

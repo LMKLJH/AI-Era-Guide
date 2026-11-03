@@ -8,16 +8,16 @@ comments: false
 
 ## 目前状态
 
-文章评论组件已接入。仓库所有者尚需开启 Discussions、安装 Giscus，并重新部署，之后即可在文章下方登录 GitHub 留言。
+Discussions 已开启，Giscus 已获本仓库授权。可在正文文章底部登录 GitHub，提出问题、补充资料或回应其他读者。
 
-接入完成前，可先通过 [GitHub Issues](https://github.com/LMKLJH/AI-Era-Guide/issues)提交问题和纠错。完整启用后，本页的“目前状态”说明会由维护者更新。
+跨专题交流可前往 [GitHub Discussions](https://github.com/LMKLJH/AI-Era-Guide/discussions)；明确的错误和修改任务仍可提交到 [GitHub Issues](https://github.com/LMKLJH/AI-Era-Guide/issues)。
 
 ## 选择参与方式
 
 | 想做什么 | 入口 |
 | --- | --- |
 | 讨论一篇文章 | 该文章底部的“问题与讨论” |
-| 提出跨专题问题、分享观点 | [GitHub Discussions](https://github.com/LMKLJH/AI-Era-Guide/discussions)（待开启） |
+| 提出跨专题问题、分享观点 | [GitHub Discussions](https://github.com/LMKLJH/AI-Era-Guide/discussions) |
 | 报告错误、提出修改任务 | [GitHub Issues](https://github.com/LMKLJH/AI-Era-Guide/issues) |
 | 直接修改文章 | 提交 Pull Request，由维护者审核合并 |
 
@@ -37,11 +37,11 @@ comments: false
 
 这是业余维护的开放项目，无法保证逐条回复或固定处理期限。发现垃圾内容可使用 GitHub 的举报功能或联系仓库维护者。
 
-## 给维护者的启用步骤
+## 给维护者的配置记录
 
 1. 在仓库 **Settings → General → Features** 勾选 **Discussions**。保留默认的 **Announcements** 分类；也可以另建公告类型的“文章评论”分类。
 2. 打开 [Giscus GitHub App](https://github.com/apps/giscus)，选择 **Install**，仅授权 **LMKLJH/AI-Era-Guide** 仓库。不要选择所有仓库。
 3. 在 **Actions → Deploy VitePress site → Run workflow**，选择 main 运行一次。部署会自动读取仓库与分类 ID，无需复制代码或添加密钥。
-4. 打开任意正文文章，检查底部评论框。确认可用后，更新本页“目前状态”并去掉待开启说明。
+4. 后续调整授权或分类后，重新部署并检查正文底部评论框。
 
 建议跨专题讨论沿用默认 General、Q&A、Ideas 分类，文章评论集中放在 Announcements 或专用“文章评论”分类。后续有实际需要再调整分类。
