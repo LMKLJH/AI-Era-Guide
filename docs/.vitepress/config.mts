@@ -10,6 +10,10 @@ export default defineConfig({
     siteTitle: 'AI时代指南',
     nav: [
       {
+        "text": "参与讨论",
+        "link": "/participate"
+      },
+      {
         "text": "目录",
         "link": "/contents"
       },
