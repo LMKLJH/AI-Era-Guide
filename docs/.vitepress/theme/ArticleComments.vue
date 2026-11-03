@@ -11,7 +11,9 @@ let timeout: ReturnType<typeof setTimeout> | undefined
 function onMessage(event: MessageEvent) {
   const iframe = host.value?.querySelector('iframe')
   if (event.origin !== 'https://giscus.app' || event.source !== iframe?.contentWindow) return
-  if (event.data?.giscus?.error) state.value = 'error'
+  const error = event.data?.giscus?.error
+  // A thread is created on the first comment; its initial absence is normal.
+  if (typeof error === 'string' && !/discussion not found/i.test(error)) state.value = 'error'
 }
 watch(isDark, (dark) => {
   host.value?.querySelector('iframe')?.contentWindow?.postMessage({
