@@ -54,10 +54,6 @@ onBeforeUnmount(() => {
       <span id="busuanzi_value_page_pv" class="home-visit-stats__value" aria-live="polite">{{ status }}</span>
       次
     </p>
-    <p class="home-visit-stats__note">
-      重复访问会计次 · 第三方统计可能存在延迟
-      <a href="https://busuanzi.ibruce.info/" target="_blank" rel="noopener noreferrer">不蒜子统计</a>
-    </p>
   </section>
 </template>
 
