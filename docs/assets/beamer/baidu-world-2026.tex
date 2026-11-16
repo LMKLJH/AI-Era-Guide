@@ -1,0 +1,133 @@
+\documentclass[aspectratio=169,10pt]{ctexbeamer}
+\usetheme{Madrid}
+\usecolortheme{default}
+\definecolor{navy}{RGB}{22,45,78}\definecolor{teal}{RGB}{0,127,141}\definecolor{light}{RGB}{235,244,248}
+\setbeamercolor{structure}{fg=navy}\setbeamercolor{frametitle}{bg=navy,fg=white}\setbeamertemplate{navigation symbols}{}
+\usepackage{tikz,booktabs,amsmath}
+\usetikzlibrary{arrows.meta,positioning,fit,calc}
+\title{百度世界2026：从人工智能到智能组织}
+\subtitle{报告解读、技术体系与智能组织参考架构}
+\author{专题解读}\date{2026年11月}
+\newcommand{\src}{\vfill{\tiny 资料来源：《人民日报》2026-11-13 第16版；新华网 2026-11-12。大会数据由百度提供。}}
+\begin{document}
+\begin{frame}\titlepage\end{frame}
+\begin{frame}{报告结构}\tableofcontents\end{frame}
+\section{核心命题}
+\begin{frame}{大会的核心判断}\begin{block}{人工智能的下一幕是“智能组织”}\centering\Large AI 是“新电能”，智能组织是“新厂房”\end{block}
+\begin{itemize}\item 技术供给：模型、算力、智能体的能力持续增强。\item 现实矛盾：Token 消耗增长，企业营收和利润未必同步增长。\item 核心主张：让 AI 深入销售、客服、研发、运营等业务环节，重构组织。\end{itemize}
+\begin{alertblock}{解读}\textbf{组织设计}决定技术能力能否转化为可持续的业务产出；这是一项待检验的经营命题。\end{alertblock}\src\end{frame}
+\begin{frame}{2016—2026：从技术基础设施到组织生产力}
+\begin{center}\begin{tikzpicture}[>=Stealth, node distance=0.6cm, every node/.style={font=\small}]
+\node[draw=navy,fill=light,rounded corners,minimum width=3.1cm,minimum height=1.4cm,align=center] (a) {2016\ AI is the new electricity};
+\node[draw=navy,fill=light,rounded corners,right=of a,minimum width=3.1cm,minimum height=1.4cm,align=center] (b) {技术栈形成\\ 芯 / 云 / 模 / 体};
+\node[draw=teal,fill=teal!12,rounded corners,right=of b,minimum width=3.1cm,minimum height=1.4cm,align=center] (c) {2026\\ 智能组织};
+\draw[->,thick] (a)--(b);\draw[->,thick] (b)--(c);
+\end{tikzpicture}\end{center}
+\begin{itemize}\item 过去：单点工具提高个人效率。\item 现在：智能体嵌入业务流程，组织知识和经验可复用。\item 未来愿景：任务网络驱动、结果可衡量、持续迭代。\end{itemize}\src\end{frame}
+\section{组织进化机制}
+\begin{frame}{组织进化三原则}\begin{columns}[T]\column{.32\textwidth}\begin{block}{01 打破岗位边界}\textbf{岗位中心 $\to$ 任务中心}\par\medskip 以任务网络组织人和智能体。\end{block}\column{.32\textwidth}\begin{block}{02 沉淀隐性知识}\textbf{个人经验 $\to$ 组织 Skill}\par\medskip 显性化、标准化、可调用、可复用。\end{block}\column{.32\textwidth}\begin{block}{03 设计流程闭环}\textbf{可衡量 + Looping}\par\medskip 每轮执行、评价、反馈、优化。\end{block}\end{columns}
+\vspace{0.6cm}\begin{alertblock}{注意}三原则为百度在大会提出的组织管理框架；其普适性及因果效果仍需外部验证。\end{alertblock}\src\end{frame}
+
+\begin{frame}{Builder 与 Seller：未来岗位的两种关键角色}
+\begin{columns}[T,onlytextwidth]
+\column{.49\textwidth}
+\begin{block}{Builder｜构建者}
+\Large 创造新事物\normalsize
+\medskip
+\begin{itemize}
+\item 发现问题，构建产品和系统
+\item 科研探索、算法与工程设计
+\item 将 AI 能力组织为可交付成果
+\end{itemize}
+\end{block}
+\column{.49\textwidth}
+\begin{block}{Seller｜连接者}
+\Large 建立连接与信任\normalsize
+\medskip
+\begin{itemize}
+\item 理解客户和合作伙伴的需求
+\item 沟通、谈判、组织协作与社群
+\item 促成创造性成果被采用与反馈
+\end{itemize}
+\end{block}
+\end{columns}
+\vspace{.25cm}
+\begin{alertblock}{大会观点与解读}
+这是李彦宏关于未来角色分工的趋势判断。\textbf{Seller 不局限于销售人员；一个人也可同时承担两类角色。}
+\end{alertblock}
+\src
+\end{frame}
+\begin{frame}{Builder / Seller 与 AI 如何协作？}
+\centering
+\begin{tikzpicture}[>=Stealth, every node/.style={align=center,font=\large},
+box/.style={draw=black,thick,minimum width=3.6cm,minimum height=1.15cm},
+arr/.style={->,very thick,draw=black}]
+\node[box] (b) at (-3.7,1.45) {\textbf{Builder}\\\normalsize 创造方案};
+\node[box,fill=black!6] (a) at (0,1.45) {\textbf{AI 智能体}\\\normalsize 自动化执行};
+\node[box] (c) at (3.7,1.45) {\textbf{Seller}\\\normalsize 连接需求与信任};
+\node[box,minimum width=7cm] (t) at (0,-.55) {\textbf{共享任务与组织知识}\\\normalsize 目标、工具、Skills、审计记录};
+\draw[arr] (b)--(a);\draw[arr] (c)--(a);
+\draw[arr] (b.south)--(t.north west);\draw[arr] (a.south)--(t.north);\draw[arr] (c.south)--(t.north east);
+\end{tikzpicture}
+\vspace{.35cm}
+\begin{itemize}
+\item Builder 界定问题并创造方案；Seller 连接需求与反馈；AI 扩展执行能力。
+\item \textbf{边界：}角色划分并非已获验证的职业定律，AI 同样会进入创造与沟通工作。
+\end{itemize}
+\end{frame}
+
+\begin{frame}{组织进化的最小闭环}\centering\begin{tikzpicture}[>=Stealth,node distance=0.35cm,every node/.style={font=\small}]
+\node[draw,rounded corners,fill=light,minimum width=2.25cm,minimum height=1.1cm,align=center] (a) {定义任务目标与约束};
+\node[draw,rounded corners,fill=light,right=of a,minimum width=2.25cm,minimum height=1.1cm,align=center] (b) {调度执行人 + 智能体};
+\node[draw,rounded corners,fill=light,right=of b,minimum width=2.25cm,minimum height=1.1cm,align=center] (c) {度量结果质量/成本/风险};
+\node[draw,rounded corners,fill=teal!15,right=of c,minimum width=2.25cm,minimum height=1.1cm,align=center] (d) {更新流程Skill / 策略};
+\foreach \x/\y in {a/b,b/c,c/d}{\draw[->,thick] (\x)--(\y);}
+\draw[->,thick,teal] (d.south) -- ++(0,-.75) -| (a.south);
+\end{tikzpicture}
+\vspace{1.2cm}\begin{itemize}\item 指标应包含业务收益和质量，而非只统计调用量。\item 失败任务进入人工复核；成功经验经过验证后沉淀。\item 闭环需要权限、审计和回滚机制。\end{itemize}\end{frame}
+\begin{frame}{百度内部实践：披露的量化指标}\centering\begin{tabular}{lrr}\toprule 指标 & 此前 & 2026年大会披露\\\midrule 日均活跃智能体 & 0.5万个 & 3.7万个\\ 每周有效任务 & 8.4万个 & 超过100万个\\ 工作空间 Workspace & — & 4300个\\ 累计组织 Skill & — & 超过2万个\\\bottomrule\end{tabular}
+\vspace{.55cm}\begin{block}{如何理解这些数字？}\begin{itemize}\item 说明智能体应用规模和知识沉淀规模增长。\item 尚缺少：任务定义、成功率、单位任务成本、收入增量、对照组。\item 因此无法仅凭这些指标推断净生产率或利润提升。\end{itemize}\end{block}\src\end{frame}
+\section{技术栈与产品}
+\begin{frame}{“芯云模体”四层技术栈}\centering\begin{tikzpicture}[node distance=.15cm,every node/.style={font=\small,align=center}]
+\node[draw=navy,fill=teal!18,minimum width=10.7cm,minimum height=.78cm] (a) {体：百度搭子 / 库库 / 一镜 / 伐谋等智能体应用};
+\node[draw=navy,fill=light,below=of a,minimum width=10.7cm,minimum height=.78cm] (b) {模：文心5.5 Flash / 深度思考 / 微表情模型};
+\node[draw=navy,fill=light,below=of b,minimum width=10.7cm,minimum height=.78cm] (c) {云：百度智能云千帆 / 天池1024卡超节点};
+\node[draw=navy,fill=light,below=of c,minimum width=10.7cm,minimum height=.78cm] (d) {芯：昆仑芯 M100 / M300 产品路线};
+\end{tikzpicture}
+\vspace{.3cm}\begin{itemize}\item 词元所：模型供给的交易、验真、征信与调用监测平台。\item 四层是百度公布的技术组织方式；不同产品之间的具体接口未在报道中完整披露。\end{itemize}\src\end{frame}
+\begin{frame}{大会发布与升级：产品地图}\small\begin{tabular}{p{2.3cm}p{4.0cm}p{5.3cm}}\toprule 类别 & 产品/进展 & 公开披露的定位\\\midrule 模型交易 & 词元所 & 模型验真、征信、性能与可用性监测\\ 模型 & 文心5.5 Flash 预览版 & 280B 总参数，14B 激活参数\\ 智能体入口 & 百度搭子 & 统一入口、Harness 引擎、Agent API\\ 内容与创作 & 库库、百度一镜 & 知识内容服务；短漫剧创作链路\\ 产业决策 & 百度伐谋 3.0 & 生产运营、经营策略、产业研发\\ 基础设施 & 天池1024卡超节点、昆仑芯 & 算力底座与芯片路线\\ 自动驾驶 & 萝卜快跑 & 28座城市、累计里程超3.5亿公里\\\bottomrule\end{tabular}\src\end{frame}
+\section{系统架构}
+\begin{frame}{智能组织参考架构：突出角色与协作闭环}
+\centering
+\begin{tikzpicture}[>=Stealth,
+main/.style={draw=black,thick,minimum height=.69cm,align=center,font=\large},
+role/.style={draw=black,thick,minimum height=1.08cm,minimum width=3.15cm,align=center,font=\large},
+ar/.style={->,thick,draw=black}]
+\node[main,minimum width=7.1cm] (goal) at (0,3.0) {\textbf{目标与治理}};
+\node[main,minimum width=7.1cm,fill=black!7] (task) at (0,1.95) {\textbf{任务拆解与协作调度}};
+\node[role] (builder) at (-3.65,.50) {\textbf{Builder 构建者}\\[-2pt]{\small 创造技术与方案}};
+\node[role,fill=black!7] (ai) at (0,.50) {\textbf{AI 智能体}\\[-2pt]{\small 模型、工具、组织知识}};
+\node[role] (seller) at (3.65,.50) {\textbf{Seller 连接者}\\[-2pt]{\small 沟通需求、建立信任}};
+\node[main,minimum width=7.1cm] (out) at (0,-1.35) {\textbf{交付成果、验证与审批}};
+\draw[ar] (goal)--(task);
+\draw[ar] (task.south)--(builder.north);
+\draw[ar] (task)--(ai);
+\draw[ar] (task.south)--(seller.north);
+\draw[ar] (builder.south)--(out.north west);
+\draw[ar] (ai.south)--(out.north);
+\draw[ar] (seller.south)--(out.north east);
+\draw[ar,dashed] (out.west) -| (-5.55,1.95) -- (task.west);
+\node[font=\small,anchor=east] at (-5.55,-.90) {反馈迭代};
+\node[font=\scriptsize,anchor=north] at (0,-2.02) {《AI时代指南》参考架构；非百度官方内部系统图};
+\end{tikzpicture}
+\end{frame}
+\begin{frame}{一个任务如何穿越系统？以产业运营优化为例}\begin{enumerate}\item \textbf{输入：} 管理者提出“降低设备停机率”，定义成本、时限与安全边界。\item \textbf{分解：} 编排层生成数据检查、故障分析、方案生成、现场确认等子任务。\item \textbf{检索：} 从 Workspace / Skill 获取历史案例、标准作业程序。\item \textbf{执行：} 产业智能体调用模型和企业工具，生成可审查的建议。\item \textbf{审核：} 高风险变更由责任人批准后执行，记录审计日志。\item \textbf{反馈：} 比较停机率、误报率、成本；更新已验证 Skill。\end{enumerate}
+\begin{alertblock}{边界}此页为示例工作流，不能据此认定百度伐谋已具备全部接口或自动化权限。\end{alertblock}\end{frame}
+\section{评价与启示}
+\begin{frame}{评价智能组织：从使用量转向真实产出}\small\begin{tabular}{p{2.1cm}p{4.4cm}p{5.1cm}}\toprule 维度 & 推荐指标 & 关键风险\\\midrule 生产率 & 单位任务成本、周期、产出 & 调用量增长但收益不增长\\ 质量 & 准确率、返工率、客户满意度 & 错误自动传播\\ 知识资产 & Skill复用率、过期率、验证率 & 错误经验被固化\\ 组织与劳动 & 人机协作时间、岗位迁移 & 责任不清、技能退化\\ 安全治理 & 审计覆盖率、事故率、回滚时间 & 数据泄露、越权执行\\\bottomrule\end{tabular}
+\vspace{.35cm}\begin{block}{验证方法}采用试点组/对照组、前后比较与长期追踪；将业务成果、成本和安全事件一并纳入评价。\end{block}\end{frame}
+\begin{frame}{对企业、大学和个人的启示}\begin{columns}[T]\column{.32\textwidth}\begin{block}{企业}任务网络、组织知识库、跨部门 Agent 编排；重新设计岗位责任与审批机制。\end{block}\column{.32\textwidth}\begin{block}{大学与科研}科研助手、证明核验、实验工作流；保留学术责任、可追溯性与独立评价。\end{block}\column{.32\textwidth}\begin{block}{个人}掌握任务定义、系统构建、质量评估、信任建立；关注劳动价值与意义感。\end{block}\end{columns}
+\vspace{.6cm}\centering\Large 关键问题：\textbf{谁定义目标？谁承担责任？谁分享收益？}\end{frame}
+\begin{frame}{结论与待研究问题}\begin{enumerate}\item 智能组织将 AI 从单点能力接入推进到业务系统设计。\item 三原则对应\textbf{任务组织、知识积累、反馈进化}三个机制。\item “芯云模体”提供技术供给，但业务收益仍依赖组织治理与实证检验。\item 需要继续研究：组织规模、岗位分化、生产率分配、安全责任和个人意义感。\end{enumerate}
+\vspace{.4cm}\begin{block}{参考来源}\scriptsize\url{https://paper.people.com.cn/rmrb/pc/content/202611/13/content_30190926.html}\\\url{https://www.xinhuanet.com/tech/20261112/dd2764d554514334b3ca88d49013414a/c.html}\end{block}\end{frame}
+\end{document}
