@@ -15,6 +15,7 @@
 - [3.4 社会制度、权力与财富分配](/02-society/distribution)
 - [3.5 各行各业岗位变迁案例](/02-society/jobs)
 - [3.6 人类社会的意义危机](/02-society/meaning)
+- [3.7 智能组织：AI 如何驱动组织进化](/02-society/organization)
 
 ## 推演主线
 
