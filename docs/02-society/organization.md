@@ -1,5 +1,9 @@
 # 3.7 智能组织：AI 如何驱动组织进化
 
+> **配套报告｜百度世界2026 智能组织解读（Beamer，16页）**  
+> [在线查看 / 下载 PDF](/files/baidu-world-2026-builder-seller.pdf) · [LaTeX 源码](https://github.com/LMKLJH/AI-Era-Guide/blob/main/docs/assets/beamer/baidu-world-2026.tex)  
+> 涵盖组织进化三原则、Builder / Seller、技术体系和智能组织参考架构。
+
 > **案例观察｜百度世界 2026（2026 年 11 月）**  
 > 本文结合百度世界大会关于“智能组织”的公开讨论，分析 AI 如何改变任务分工、组织知识与治理方式。下文明确区分**大会观点**、**参考架构**与**本指南的推演**。
 
