@@ -127,6 +127,10 @@ export default defineConfig({
           {
             "text": "3.6 人类社会的意义危机",
             "link": "/02-society/meaning"
+          },
+          {
+            "text": "3.7 智能组织：AI 如何驱动组织进化",
+            "link": "/02-society/organization"
           }
         ]
       },
