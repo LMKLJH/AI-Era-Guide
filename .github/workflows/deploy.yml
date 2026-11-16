@@ -20,6 +20,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Compile Baidu World 2026 Beamer PDF
+        uses: xu-cheng/latex-action@v4
+        with:
+          root_file: baidu-world-2026.tex
+          working_directory: docs/assets/beamer
+          latexmk_use_xelatex: true
+      - name: Stage Beamer PDF for VitePress
+        run: |
+          mkdir -p docs/public/files
+          cp docs/assets/beamer/baidu-world-2026.pdf docs/public/files/baidu-world-2026-builder-seller.pdf
       - uses: actions/setup-node@v4
         with:
           node-version: 20
