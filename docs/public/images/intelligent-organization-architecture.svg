@@ -1,34 +1,42 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="870" viewBox="0 0 1100 870" role="img" aria-label="智能组织参考系统架构：目标治理、任务调度、Builder、Seller、智能体与反馈闭环">
-<defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0 0L9 4.5L0 9z" fill="#627b98"/></marker></defs>
-<style>.title{font:700 30px "Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:#24344b}.subtitle{font:16px "Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:#61728a}.node{font:600 20px "Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:#233850}.small{font:16px "Noto Sans CJK SC","Microsoft YaHei",sans-serif;fill:#42566f}</style>
-<rect width="1100" height="870" fill="#ffffff"/>
-<text class="title" x="550" y="32" text-anchor="middle">智能组织参考系统架构</text>
-<path d="M550 105V135" fill="none" stroke="#627b98" stroke-width="2.5" marker-end="url(#arrow)"/>
-<path d="M550 190V220" fill="none" stroke="#627b98" stroke-width="2.5" marker-end="url(#arrow)"/>
-<path d="M550 275V305" fill="none" stroke="#627b98" stroke-width="2.5" marker-end="url(#arrow)"/>
-<path d="M500 360 L205 405" fill="none" stroke="#627b98" stroke-width="2.5" marker-end="url(#arrow)"/>
-<path d="M550 360V405" fill="none" stroke="#627b98" stroke-width="2.5" marker-end="url(#arrow)"/>
-<path d="M600 360 L895 405" fill="none" stroke="#627b98" stroke-width="2.5" marker-end="url(#arrow)"/>
-<path d="M205 470V520" fill="none" stroke="#627b98" stroke-width="2.5" marker-end="url(#arrow)"/>
-<path d="M550 470V520" fill="none" stroke="#627b98" stroke-width="2.5" marker-end="url(#arrow)"/>
-<path d="M895 470V520" fill="none" stroke="#627b98" stroke-width="2.5" marker-end="url(#arrow)"/>
-<path d="M205 585 L445 630" fill="none" stroke="#627b98" stroke-width="2.5" marker-end="url(#arrow)"/>
-<path d="M550 585V630" fill="none" stroke="#627b98" stroke-width="2.5" marker-end="url(#arrow)"/>
-<path d="M895 585 L655 630" fill="none" stroke="#627b98" stroke-width="2.5" marker-end="url(#arrow)"/>
-<path d="M550 690V730" fill="none" stroke="#627b98" stroke-width="2.5" marker-end="url(#arrow)"/>
-<rect x="380" y="50" width="340" height="55" rx="14" fill="#e8efff" stroke="#9aaac0"/><text x="550" y="83.5" text-anchor="middle" class="node">目标与业务需求</text>
-<rect x="380" y="135" width="340" height="55" rx="14" fill="#f4eafb" stroke="#9aaac0"/><text x="550" y="168.5" text-anchor="middle" class="node">治理与责任边界</text>
-<rect x="380" y="220" width="340" height="55" rx="14" fill="#e6f3f1" stroke="#9aaac0"/><text x="550" y="253.5" text-anchor="middle" class="node">任务拆解 / 依赖 / 调度</text>
-<rect x="380" y="305" width="340" height="55" rx="14" fill="#e6f3f1" stroke="#9aaac0"/><text x="550" y="338.5" text-anchor="middle" class="node">人机协作编排器</text>
-<rect x="70" y="405" width="270" height="65" rx="14" fill="#eaf1ff" stroke="#9aaac0"/><text x="205" y="443.5" text-anchor="middle" class="node">Builder 构建者</text>
-<rect x="415" y="405" width="270" height="65" rx="14" fill="#e7f6eb" stroke="#9aaac0"/><text x="550" y="443.5" text-anchor="middle" class="node">智能体群</text>
-<rect x="760" y="405" width="270" height="65" rx="14" fill="#fff1e6" stroke="#9aaac0"/><text x="895" y="443.5" text-anchor="middle" class="node">Seller 连接者</text>
-<rect x="70" y="520" width="270" height="65" rx="14" fill="#f2f3f5" stroke="#9aaac0"/><text x="205" y="558.5" text-anchor="middle" class="node">模型推理 / 工具接口</text>
-<rect x="415" y="520" width="270" height="65" rx="14" fill="#f2f3f5" stroke="#9aaac0"/><text x="550" y="558.5" text-anchor="middle" class="node">组织知识 / Skills</text>
-<rect x="760" y="520" width="270" height="65" rx="14" fill="#fff8ec" stroke="#9aaac0"/><text x="895" y="558.5" text-anchor="middle" class="node">客户需求 / 反馈</text>
-<rect x="380" y="630" width="340" height="60" rx="14" fill="#fcece9" stroke="#9aaac0"/><text x="550" y="666" text-anchor="middle" class="node">结果验证 / 人工审批</text>
-<rect x="380" y="730" width="340" height="60" rx="14" fill="#e7f3ff" stroke="#9aaac0"/><text x="550" y="766" text-anchor="middle" class="node">交付 / 监测 / 复盘</text>
-<path d="M380 760H30V250H380" fill="none" stroke="#1d8c76" stroke-width="3" stroke-dasharray="9 8" marker-end="url(#arrow)"/>
-<text class="small" x="43" y="245">反馈迭代</text>
-<text class="subtitle" x="550" y="835" text-anchor="middle">概念架构 · 《AI时代指南》整理 · 非百度官方系统图</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-label="智能组织参考架构：目标与治理、任务编排、Builder 构建者、AI 智能体、Seller 连接者、成果验收和反馈迭代">
+<title>智能组织参考架构（简洁版）</title>
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#555"/></marker></defs>
+<style>
+text{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#151515}
+.heading{font-size:38px;font-weight:700}
+.main{font-size:31px;font-weight:700}
+.sub{font-size:23px}
+.note{font-size:19px;fill:#555}
+.rect{fill:#fff;stroke:#333;stroke-width:2.5}
+.accent{fill:#edf2f8;stroke:#333;stroke-width:2.5}
+.line{fill:none;stroke:#555;stroke-width:2.8;marker-end:url(#a)}
+.back{fill:none;stroke:#555;stroke-width:2.8;stroke-dasharray:10 8;marker-end:url(#a)}
+</style>
+<rect width="1200" height="760" fill="#fff"/>
+<text x="600" y="58" class="heading" text-anchor="middle">智能组织：任务驱动的人机协作</text>
+<rect class="rect" x="325" y="88" width="550" height="78" rx="5"/>
+<text class="main" x="600" y="136" text-anchor="middle">目标与治理</text>
+<path class="line" d="M600 167V207"/>
+<rect class="accent" x="325" y="208" width="550" height="84" rx="5"/>
+<text class="main" x="600" y="258" text-anchor="middle">任务拆解与协作调度</text>
+<path d="M600 292V328H205V356 M600 328V356 M600 328H995V356" fill="none" stroke="#555" stroke-width="2.8"/>
+<path class="line" d="M205 330V356"/>
+<path class="line" d="M600 330V356"/>
+<path class="line" d="M995 330V356"/>
+<rect class="rect" x="30" y="356" width="350" height="126" rx="5"/>
+<text class="main" x="205" y="402" text-anchor="middle">Builder 构建者</text>
+<text class="sub" x="205" y="450" text-anchor="middle">创造产品、技术与方案</text>
+<rect class="accent" x="425" y="356" width="350" height="126" rx="5"/>
+<text class="main" x="600" y="402" text-anchor="middle">AI 智能体</text>
+<text class="sub" x="600" y="450" text-anchor="middle">模型、工具、组织知识</text>
+<rect class="rect" x="820" y="356" width="350" height="126" rx="5"/>
+<text class="main" x="995" y="402" text-anchor="middle">Seller 连接者</text>
+<text class="sub" x="995" y="450" text-anchor="middle">理解需求、沟通与信任</text>
+<path d="M205 482V520H600 M600 482V520 M995 482V520H600" fill="none" stroke="#555" stroke-width="2.8"/>
+<path class="line" d="M600 520V548"/>
+<rect class="rect" x="325" y="549" width="550" height="82" rx="5"/>
+<text class="main" x="600" y="599" text-anchor="middle">交付成果 · 验证与审批</text>
+<path class="back" d="M325 590H85V248H325"/>
+<text class="sub" x="97" y="546" text-anchor="start">反馈迭代</text>
+<text class="note" x="600" y="700" text-anchor="middle">《AI时代指南》概念架构 · 非百度官方内部系统图</text>
 </svg>
