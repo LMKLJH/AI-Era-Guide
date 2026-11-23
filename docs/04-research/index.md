@@ -24,6 +24,10 @@
 
 [PPT原件](https://github.com/LMKLJH/AI-Era-Guide/blob/main/ppt/可拓展监督：当AI比人聪明时，人类如何不被它的谎言骗过.pptx)。采用监督结构作为讨论入口。示意数字不作为实测数据，缺少出处的定理暂不引用；具体问题见[1.5](/01-ai/alignment)。
 
+## 发起人演讲与研究札记
+
+- [2026年11月23日演讲研究整理](/04-research/math-civilization-2026-11-23)：从数学知识生产走向经费、岗位与大学制度，再讨论被需要感、价值叙事与共同体。根据演讲转写整理，属于发起人的问题与假说，不作为熊辉报告结论或外部事实证据。
+
 ## 如何参与
 
 [查看参与讨论说明与规则](/participate)。文章底部提供评论区，跨专题问题可前往 [GitHub Discussions](https://github.com/LMKLJH/AI-Era-Guide/discussions) 交流。
