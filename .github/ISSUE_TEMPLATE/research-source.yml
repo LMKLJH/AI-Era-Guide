@@ -1,0 +1,36 @@
+name: 资料贡献
+description: 提交论文、数据、报告、案例或可复查的实践记录
+title: "[资料] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        一条材料对应一个 Issue。仅有待核链接或初步消息时，可以先到文章评论或 Discussions 交流。
+  - type: input
+    id: article
+    attributes:
+      label: 对应位置
+      description: 填写文章链接和小节。提出新资料时可填主题。
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: 来源与定位
+      description: 给出标题、作者或机构、日期或版本、原始链接和页码、表号或时间戳。自有实践请写明时间、任务、模型或工具版本及检验方式。
+    validations:
+      required: true
+  - type: textarea
+    id: relevance
+    attributes:
+      label: 这份材料能说明什么
+      description: 写明它支持、限制或挑战了哪条判断，以及适用范围、样本或已知局限。简短描述即可。
+    validations:
+      required: true
+  - type: textarea
+    id: permissions
+    attributes:
+      label: 附件权限、署名和 AI 使用
+      description: 如提供图表或附件，请注明权利来源及可转载范围。可写署名偏好。若 AI 参与了实质内容，请说明用途及人工核查情况。
+    validations:
+      required: false

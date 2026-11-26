@@ -1,0 +1,32 @@
+name: 错误报告
+description: 指出事实、引用、文字、链接或页面显示错误
+title: "[错误] "
+body:
+  - type: input
+    id: location
+    attributes:
+      label: 错误在哪
+      description: 给出网页链接或文件路径，补充小节名、原句或出错的链接。
+    validations:
+      required: true
+  - type: textarea
+    id: observed
+    attributes:
+      label: 发生了什么
+      description: 描述现有内容或表现，以及你预期的内容或表现。页面问题可附复现步骤和设备或浏览器，截图请先去除隐私信息。
+    validations:
+      required: true
+  - type: textarea
+    id: verification
+    attributes:
+      label: 纠正依据或建议
+      description: 事实或引文有误时请附可定位的来源。建议改法、检测日期或故障现象也可帮助复查。暂时无法确定正确结果时，说明已检查了什么。
+    validations:
+      required: false
+  - type: textarea
+    id: disclosure
+    attributes:
+      label: 署名和 AI 使用
+      description: 可写署名偏好。若 AI 参与了实质内容，请说明用途及人工核查情况。
+    validations:
+      required: false

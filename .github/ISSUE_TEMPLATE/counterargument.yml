@@ -1,0 +1,36 @@
+name: 观点反驳
+description: 针对正文的判断提交反例、推理问题或不同解释
+title: "[反驳] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        欢迎对原判断提出可检查的挑战。一个 Issue 聚焦一条判断。跨专题的开放问题可以先在 Discussions 交流。
+  - type: textarea
+    id: claim
+    attributes:
+      label: 你要回应的判断
+      description: 给出文章和小节链接，摘录相关句子或准确转述。若文章已更新，附当时的 GitHub 文件版本链接。
+    validations:
+      required: true
+  - type: textarea
+    id: objection
+    attributes:
+      label: 反例或论证
+      description: 说明受挑战的是事实、前提、推理还是适用范围。可以给可检查的推理、反例、原始来源或实践记录。涉及引用请给出具体位置。
+    validations:
+      required: true
+  - type: textarea
+    id: revision
+    attributes:
+      label: 建议怎样呈现这项分歧
+      description: 可以建议更正、缩小适用范围、并列不同解释，或说明还需要什么证据。暂时没有改文建议也可以。
+    validations:
+      required: false
+  - type: textarea
+    id: disclosure
+    attributes:
+      label: 署名和 AI 使用
+      description: 可写署名偏好。若 AI 参与了实质内容，请说明用途及人工核查情况。
+    validations:
+      required: false
